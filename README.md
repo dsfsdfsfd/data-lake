@@ -1,7 +1,7 @@
 # Diagram
 ![Image](./access/diagram.png)
 
-# Data architectures
+# I. Data architectures
 ***Describe how data is managed***
 * Collection
 * Transformation
@@ -10,13 +10,13 @@
 
 ![i](./access/data_architectures.png)
 
-## Type of Data architectures
+## II. Type of Data architectures
 1. Data Fabric: Unify(thống nhất) multiple and disjoint data sources in varios(nhiều loại)
     - Data sources: data warehouses, data lakes, and data marts
     - Environments: on-prem, cloud, and edge
 2. Data Mesh: Distribute data ownership to domain-specific teams.  
     - Each team manages, owns, and serves the data as a product
-## Type of DMS
+## III. Type of DMS
 1. Data Warehouse
 - A central data hub containing highly formatted and structured data for analytics
 Eg: GCP, BigQuery, AWS...
@@ -31,6 +31,22 @@ Eg: sales, accounting, IT...
 4. Lake house
 - Add layers for data management, governance and query performance on top of Data Lake
 
-## Types of architectures
+## IV. Types of architectures
+1. Lambda Architecture
+    - Stream processing
+    - Batch processing
+- Tow separate serving layer
+- Often used for historical analysis
+
+2. Kappa Architecture
+    - Stream processing
+- Unified serving layer
+- Often used for real-time analysis
+
+## V. Dataflow model
+```bash
+batch is a special case of streaming 
+```
+-> beam
 
 
