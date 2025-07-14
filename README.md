@@ -1,6 +1,7 @@
 # Diagram
 ![Image](./access/diagram.png)
 
+
 # I. Data architectures
 ***Describe how data is managed***
 * Collection
